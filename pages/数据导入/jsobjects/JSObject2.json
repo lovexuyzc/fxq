@@ -1,0 +1,25 @@
+{
+  "unpublishedCollection": {
+    "name": "JSObject2",
+    "pageId": "数据导入",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "body": "export default {\n\tmyVar1: [],\n\tmyVar2: {},\n\tmyFun1: async (str) => {\n\t\t//write code here\n\t\t\t\tText1.text=str;\n\t\tshowAlert(str);\n\t\tshowModal('Modal2');\n\t},\n\tmyFun2: async () => {\n\t\t//use async-await or promises\n\t}\n} ",
+    "variables": [
+      {
+        "name": "myVar1",
+        "value": "[]"
+      },
+      {
+        "name": "myVar2",
+        "value": "{}"
+      }
+    ],
+    "userPermissions": []
+  },
+  "id": "数据导入_JSObject2",
+  "deleted": false,
+  "gitSyncId": "63b4d7060ab2a22cbb02dcca_63b671640ab2a22cbb02e2f1"
+}

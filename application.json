@@ -1,0 +1,40 @@
+{
+  "pages": [
+    {
+      "id": "首页",
+      "isDefault": true
+    },
+    {
+      "id": "数据导入",
+      "isDefault": false
+    },
+    {
+      "id": "导入统计",
+      "isDefault": false
+    },
+    {
+      "id": "检验结果",
+      "isDefault": false
+    },
+    {
+      "id": "页面1",
+      "isDefault": false
+    }
+  ],
+  "viewMode": false,
+  "appIsExample": false,
+  "unreadCommentThreads": 0,
+  "color": "#C7F3F0",
+  "icon": "snowy-weather",
+  "unpublishedAppLayout": {
+    "type": "DESKTOP"
+  },
+  "publishedAppLayout": {
+    "type": "DESKTOP"
+  },
+  "evaluationVersion": 2,
+  "applicationVersion": 2,
+  "isManualUpdate": false,
+  "viewerLayout": "{\"color\":\"#2CBBA6\",\"logoUrl\":\"\",\"name\":\"应用 1\",\"treeData\":[{\"title\":\"首页\",\"pageId\":\"63b4d7060ab2a22cbb02dccd\",\"isPage\":true,\"icon\":\"home-o\"},{\"title\":\"数据导入\",\"expanded\":true,\"children\":[{\"title\":\"数据导入\",\"pageId\":\"63b671630ab2a22cbb02e2e6\",\"isPage\":true,\"icon\":\"arrow\"},{\"title\":\"导入统计\",\"pageId\":\"63b6718e0ab2a22cbb02e2f5\",\"isPage\":true,\"icon\":\"arrow\"},{\"title\":\"检验结果\",\"pageId\":\"63b671910ab2a22cbb02e304\",\"isPage\":true,\"icon\":\"arrow\"}],\"icon\":\"exchange\"}],\"outsiderTree\":[]}",
+  "deleted": false
+}
