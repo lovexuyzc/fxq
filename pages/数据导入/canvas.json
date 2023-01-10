@@ -564,9 +564,6 @@
                   "key": "primaryColumns.xn__5nqv21cbobxc.computedValue"
                 },
                 {
-                  "key": "primaryColumns.xn__q8q655cs2w.computedValue"
-                },
-                {
                   "key": "primaryColumns.xn__y5qq8dca232fw21d.computedValue"
                 },
                 {
@@ -577,9 +574,27 @@
                 },
                 {
                   "key": "primaryColumns.xn__2ss711i.computedValue"
+                },
+                {
+                  "key": "primaryColumns.xn__rpr79v.menuButtonLabel"
+                },
+                {
+                  "key": "primaryColumns.EditActions1.saveButtonColor"
+                },
+                {
+                  "key": "primaryColumns.EditActions1.saveBorderRadius"
+                },
+                {
+                  "key": "primaryColumns.EditActions1.discardBorderRadius"
+                },
+                {
+                  "key": "primaryColumns.EditActions1.isSaveDisabled"
+                },
+                {
+                  "key": "primaryColumns.EditActions1.isDiscardDisabled"
                 }
               ],
-              "leftColumn": 0,
+              "leftColumn": 1,
               "delimiter": ",",
               "defaultSelectedRowIndex": "0",
               "showInlineEditingOptionDropdown": true,
@@ -627,9 +642,17 @@
                 "xn__y5qq8dca232fw21d",
                 "xn__y5qy1xi8ckwz",
                 "xn__2ss21nqtryou",
-                "xn__2ss711i"
+                "xn__2ss711i",
+                "EditActions1"
               ],
-              "dynamicPropertyPathList": [],
+              "dynamicPropertyPathList": [
+                {
+                  "key": "primaryColumns.EditActions1.isSaveDisabled"
+                },
+                {
+                  "key": "primaryColumns.EditActions1.isDiscardDisabled"
+                }
+              ],
               "displayName": "表格",
               "searchTags": [
                 "datagrid",
@@ -660,7 +683,7 @@
                   "alias": "序号",
                   "horizontalAlignment": "LEFT",
                   "verticalAlignment": "CENTER",
-                  "columnType": "text",
+                  "columnType": "select",
                   "textColor": "",
                   "textSize": "0.875rem",
                   "fontStyle": "",
@@ -668,8 +691,8 @@
                   "enableSort": true,
                   "isVisible": true,
                   "isDisabled": false,
-                  "isCellEditable": false,
-                  "isEditable": false,
+                  "isCellEditable": true,
+                  "isEditable": true,
                   "isCellVisible": true,
                   "isDerived": false,
                   "label": "序号",
@@ -677,7 +700,10 @@
                   "isDiscardVisible": true,
                   "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"序号\"]))}}",
                   "validation": {},
-                  "cellBackground": ""
+                  "cellBackground": "",
+                  "customAlias": "",
+                  "menuButtonLabel": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( '打开菜单'))}}",
+                  "selectOptions": "[\n  {\n    \"label\": \"标准表1\",\n    \"value\": \"标准表1\"\n  },\n  {\n    \"label\": \"2\",\n    \"value\": \"2\"\n  },\n  {\n    \"label\": \"3\",\n    \"value\": \"3\"\n  }\n]"
                 },
                 "xn__5nqv21cbobxc": {
                   "allowCellWrapping": false,
@@ -696,8 +722,8 @@
                   "enableSort": true,
                   "isVisible": true,
                   "isDisabled": false,
-                  "isCellEditable": false,
-                  "isEditable": false,
+                  "isCellEditable": true,
+                  "isEditable": true,
                   "isCellVisible": true,
                   "isDerived": false,
                   "label": "数据文件",
@@ -716,7 +742,7 @@
                   "alias": "标准表",
                   "horizontalAlignment": "LEFT",
                   "verticalAlignment": "CENTER",
-                  "columnType": "text",
+                  "columnType": "select",
                   "textColor": "",
                   "textSize": "0.875rem",
                   "fontStyle": "",
@@ -724,16 +750,17 @@
                   "enableSort": true,
                   "isVisible": true,
                   "isDisabled": false,
-                  "isCellEditable": false,
-                  "isEditable": false,
+                  "isCellEditable": true,
+                  "isEditable": true,
                   "isCellVisible": true,
                   "isDerived": false,
                   "label": "标准表",
                   "isSaveVisible": true,
                   "isDiscardVisible": true,
-                  "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"标准表\"]))}}",
+                  "computedValue": "",
                   "validation": {},
-                  "cellBackground": ""
+                  "cellBackground": "",
+                  "selectOptions": "[\n  {\n    \"label\": \"标准表1\",\n    \"value\": \"标准表1\"\n  },\n  {\n    \"label\": \"2\",\n    \"value\": \"2\"\n  },\n  {\n    \"label\": \"3\",\n    \"value\": \"3\"\n  }\n]"
                 },
                 "xn__y5qq8dca232fw21d": {
                   "allowCellWrapping": false,
@@ -752,8 +779,8 @@
                   "enableSort": true,
                   "isVisible": true,
                   "isDisabled": false,
-                  "isCellEditable": false,
-                  "isEditable": false,
+                  "isCellEditable": true,
+                  "isEditable": true,
                   "isCellVisible": true,
                   "isDerived": false,
                   "label": "导入后表名",
@@ -780,8 +807,8 @@
                   "enableSort": true,
                   "isVisible": true,
                   "isDisabled": false,
-                  "isCellEditable": false,
-                  "isEditable": false,
+                  "isCellEditable": true,
+                  "isEditable": true,
                   "isCellVisible": true,
                   "isDerived": false,
                   "label": "导入状态",
@@ -808,8 +835,8 @@
                   "enableSort": true,
                   "isVisible": true,
                   "isDisabled": false,
-                  "isCellEditable": false,
-                  "isEditable": false,
+                  "isCellEditable": true,
+                  "isEditable": true,
                   "isCellVisible": true,
                   "isDerived": false,
                   "label": "表头状态",
@@ -836,8 +863,8 @@
                   "enableSort": true,
                   "isVisible": true,
                   "isDisabled": false,
-                  "isCellEditable": false,
-                  "isEditable": false,
+                  "isCellEditable": true,
+                  "isEditable": true,
                   "isCellVisible": true,
                   "isDerived": false,
                   "label": "表头",
@@ -846,6 +873,43 @@
                   "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"表头\"]))}}",
                   "validation": {},
                   "cellBackground": ""
+                },
+                "EditActions1": {
+                  "allowCellWrapping": false,
+                  "index": 7,
+                  "width": 150,
+                  "originalId": "EditActions1",
+                  "id": "EditActions1",
+                  "alias": "EditActions1",
+                  "horizontalAlignment": "LEFT",
+                  "verticalAlignment": "CENTER",
+                  "columnType": "editActions",
+                  "textSize": "0.875rem",
+                  "enableFilter": true,
+                  "enableSort": true,
+                  "isVisible": true,
+                  "isDisabled": false,
+                  "isCellEditable": false,
+                  "isEditable": false,
+                  "isCellVisible": true,
+                  "isDerived": true,
+                  "label": "行更新操作",
+                  "isSaveVisible": true,
+                  "isDiscardVisible": true,
+                  "computedValue": "",
+                  "validation": {},
+                  "buttonStyle": "rgb(3, 179, 101)",
+                  "saveIconAlign": "left",
+                  "discardIconAlign": "left",
+                  "saveActionLabel": "保存",
+                  "discardActionLabel": "丢弃",
+                  "saveButtonColor": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( appsmith.theme.colors.primaryColor))}}",
+                  "discardButtonColor": "#F22B2B",
+                  "saveBorderRadius": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( appsmith.theme.borderRadius.appBorderRadius))}}",
+                  "discardBorderRadius": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( appsmith.theme.borderRadius.appBorderRadius))}}",
+                  "discardButtonVariant": "TERTIARY",
+                  "isSaveDisabled": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( !Table1.updatedRowIndices.includes(currentIndex)))}}",
+                  "isDiscardDisabled": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( !Table1.updatedRowIndices.includes(currentIndex)))}}"
                 }
               },
               "onRowSelected": "",
@@ -1113,9 +1177,13 @@
                       "resetFormOnClick": false,
                       "boxShadow": "none",
                       "widgetName": "Button8",
-                      "onClick": "{{Api1.run(() => showAlert('导入成功','success'), () => showAlert('导入失败','error'))}}",
+                      "onClick": "{{DaoRu.run(() => showAlert('导入成功','success'), () => showAlert('导入失败','error'))}}",
                       "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
-                      "dynamicPropertyPathList": [],
+                      "dynamicPropertyPathList": [
+                        {
+                          "key": "onClick"
+                        }
+                      ],
                       "displayName": "按钮",
                       "iconSVG": "/static/media/icon.cca026338f1c8eb6df8ba03d084c2fca.svg",
                       "searchTags": [
